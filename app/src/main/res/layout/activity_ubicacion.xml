@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UbicacionActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_oro" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Lunes - Viernes"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo de Oro del Perú"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="jr. Alfonso de Molina 1110, Surco"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_larco" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Lunes - Viernes"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo Larco"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Av. Simon Bolivar 1515, P. Libre"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_sitio_bodega" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Lunes - Sábados"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textVie9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo de Sitio Bodega y Quadra"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Jr. Ancash 213, Cercado de lima"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_nacional_arqueologia" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: cerrado temporalmente"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo Nacional de Arqueología "
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Plaza Bolívar, Pueblo Libre"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_metropolitano" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Martes - Sábado"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo Metropolitano de Lima"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Av. 28 de Julio, Cercado de Lima"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/bcrp" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Lunes - Domingo"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo del BCRP"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Jr. Lampa 474, Cercado de lima"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginBottom="25dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="2dp"
+                        app:cardMaxElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                app:cardCornerRadius="15dp">
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/museo_de_la_nacion_peru" />
+
+                            </androidx.cardview.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:paddingTop="10dp"
+                                    android:paddingBottom="6dp"
+                                    android:text="Atención: Lunes - Domingo"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView23"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/mulishbold"
+                                    android:paddingBottom="6dp"
+                                    android:text="Museo de La Nación"
+                                    android:textColor="@color/Eerie_Black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView24"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/mulishregular"
+                                    android:text="Av. Javier Prado Este 2465"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Museos más Cercanos"
+        android:textAlignment="center"
+        android:textAppearance="@style/titulo_negrita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

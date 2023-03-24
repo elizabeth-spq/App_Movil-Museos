@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow_Color"
+    tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/Snow_Color"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mulishbold"
+            android:text="Hola, Usuario"
+            android:textColor="@color/Eerie_Black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/mulishregular"
+            android:text="Ten una visita maravillosa!"
+            android:textColor="@color/Sonic_Silver"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="205dp"
+            android:layout_height="62dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/superior" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewNombre">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="280dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:hint="🔎 Buscar"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="-15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/menu_inferior" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-15dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25">
+
+                <TextView
+                    android:id="@+id/txvMuseoMundo"
+                    style="@style/menuSubtitu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Museos del mundo" />
+
+                <TextView
+                    android:id="@+id/txvMuseoMundoVer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/mulishbold"
+                    android:text="Ver Todo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/Pale_Silver"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/historia_10"
+                    android:paddingRight="@dimen/historia_10"
+                    android:paddingBottom="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="336dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="383dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgMundo1"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/luvre" />
+
+                            <TextView
+                                android:id="@+id/txvMundo1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Siempre hay una buena excusa para visitar el Louvre"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvMundoFecha1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:text="📅  Lunes a Miercoles"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/btnLouvre"
+                                    style="@style/boton_historia_eliz"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:onClick="onClick"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:text="Saber más"
+                                    android:textSize="16sp"
+                                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                                <TextView
+                                    android:id="@+id/txvMundoHora1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_weight="2"
+                                    android:text="⏱ ️2.5 h"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="336dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgMundo2"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/china" />
+
+                            <TextView
+                                android:id="@+id/txvMundo2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="El Museo Nacional de China - Fusión de dos épocas"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvMundoFecha2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:text="📅  Lunes a Miercoles"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/btnMundo2"
+                                    style="@style/boton_historia_eliz"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:onClick="onClick"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:text="Saber más"
+                                    android:textSize="16sp"
+                                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                                <TextView
+                                    android:id="@+id/txvMundoHora2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_weight="2"
+                                    android:text="⏱ ️2.5 h"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="336dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgMundo3"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/natutal" />
+
+                            <TextView
+                                android:id="@+id/txvMundo3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="El Museo Nacional de Historia Natural de los Estados Unidos"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvMundoFecha3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:text="📅  Lunes a Miercoles"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/btnMundo3"
+                                    style="@style/boton_historia_eliz"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:onClick="onClick"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:text="Saber más"
+                                    android:textSize="16sp"
+                                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                                <TextView
+                                    android:id="@+id/txvMundoHora3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_weight="2"
+                                    android:text="⏱ ️2.5 h"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="336dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgMundo4"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/museoaire" />
+
+                            <TextView
+                                android:id="@+id/txvMundo4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="El Museo Nacional del Aire y el Espacio"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvMundoFecha4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:text="📅  Lunes a Miercoles"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/btnMundo4"
+                                    style="@style/boton_historia_eliz"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:onClick="onClick"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:text="Saber más"
+                                    android:textSize="16sp"
+                                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                                <TextView
+                                    android:id="@+id/txvMundoHora4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_weight="2"
+                                    android:text="⏱ ️2.5 h"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="336dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:elevation="5dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView108"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/britanico" />
+
+                            <TextView
+                                android:id="@+id/textView118"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Desde la prehistoria hasta el presente en el Museo Británico"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView129"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:text="📅  Lunes a Miercoles"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/btnMundo5"
+                                    style="@style/boton_historia_eliz"
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:onClick="onClick"
+                                    android:paddingLeft="0dp"
+                                    android:paddingRight="0dp"
+                                    android:text="Saber más"
+                                    android:textSize="16sp"
+                                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                                <TextView
+                                    android:id="@+id/textView240"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_weight="2"
+                                    android:text="⏱ ️2.5 h"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/Pale_Silver"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/txv2"
+                style="@style/menuSubtitu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25"
+                android:text="Top 5 Museos del Perú" />
+
+            <HorizontalScrollView
+                android:id="@+id/Horizontal2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="@dimen/historia_20">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="15dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:id="@+id/imgvMac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onClick"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/mac"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/larco" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/sipan" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/cao" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="5dp">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/inca" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/Linear3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/menuSubtitu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Museos a lo largo de la Historia" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/Horizontal3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/historia_15"
+                    android:paddingTop="@dimen/historia_15"
+                    android:paddingRight="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardAntiguedad"
+                        style="@style/bordercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        android:onClick="onClick"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="95dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/antiguedad" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:text="Antiguedad"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/Sonic_Silver"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_weight="1"
+                                    android:text="Edificio de la Corte  \n Suprema."
+                                    android:textColor="@color/Pale_Silver" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView61"
+                                android:layout_width="70dp"
+                                android:layout_height="95dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/renacimiento" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView122"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:text="Renacimiento"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/Sonic_Silver"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView133"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_weight="1"
+                                    android:text="La Galería Uffizi  \n Palacio."
+                                    android:textColor="@color/Pale_Silver" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView64"
+                                android:layout_width="70dp"
+                                android:layout_height="95dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/sigloxixxx" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView125"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:text="Siglo XIXXX"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/Sonic_Silver"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView136"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_weight="1"
+                                    android:text="El Museo Metropolitano  \n de Arte."
+                                    android:textColor="@color/Pale_Silver" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView67"
+                                android:layout_width="70dp"
+                                android:layout_height="95dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/postmodernismo" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView128"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:text="Posmodernismo"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/Sonic_Silver"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView139"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_weight="1"
+                                    android:text="El Museo Guggenheim  \n Bilbao."
+                                    android:textColor="@color/Pale_Silver" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/Linear4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    style="@style/menuSubtitu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="Tipos de museos" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/Horizontal4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/historia_15"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/historia_15"
+                    android:paddingRight="@dimen/historia_15">
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Arte"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageTipo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="onClick"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/arte"
+                                tools:ignore="SpeakableTextPresentCheck" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Historia"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView101"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/historia" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Arqueológico"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView102"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/arqueologico" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Monográfico"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView103"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/monografico" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Histórico"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView104"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/historico" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Tecnología"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView105"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/tecnologia" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Ecomuseo"
+                                android:textAlignment="center"
+                                android:textColor="@color/Sonic_Silver" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/ecomuseo" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25">
+
+                <TextView
+                    android:id="@+id/txvNoticias"
+                    style="@style/menuSubtitu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Noticias" />
+
+                <TextView
+                    android:id="@+id/txvNoticias2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/mulishbold"
+                    android:text="Ver Todo"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/Pale_Silver"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/HorizontaNot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/historia_15"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/historia_15"
+                    android:paddingRight="@dimen/historia_15">
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgNot1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/nota" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="La exposición inmersiva Beyond Van Gogh llega a Lima"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvNotfecha1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="0sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                android:text="📅  2 Mayo 2022"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageNot2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/notb" />
+
+                            <TextView
+                                android:id="@+id/txvnot1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Este domingo 1 de mayo habrá ingreso gratuito a todos los ..."
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvNotfecha"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="0sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                android:text="📅  28 de Abril 2022"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageNot3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/notac" />
+
+                            <TextView
+                                android:id="@+id/txvnot2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Diez museos gastronómicos de España que despertarán ..."
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvNotfecha2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="0sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                android:text="📅  18 Marzo 2022"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="230dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageNot4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/notc" />
+
+                            <TextView
+                                android:id="@+id/txvnot4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Los museos dependientes de la Junta de Extremadura..."
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txvNotfecha4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="0sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                android:text="📅  14 Abril 2022"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/Pale_Silver"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    style="@style/menuSubtitu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mulishbold"
+                    android:text="Modelos de exposición" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/exposicion_objetos" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Museos e innovación"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView63"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="4 Modelos de exposición"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/btnModelo"
+                                style="@style/boton_historia_eliz"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:onClick="onClick"
+                                android:paddingLeft="0dp"
+                                android:paddingRight="0dp"
+                                android:text="Saber más"
+                                android:textSize="16sp"
+                                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/bordercard"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/exposicion_medio_contextual" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Tipos de Museografía"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/historia_10"
+                                android:layout_marginRight="@dimen/historia_10"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/mulishbold"
+                                android:text="Rotación de colecciones"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/Eerie_Black"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/btnModelo2"
+                                style="@style/boton_historia_eliz"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:onClick="onClick"
+                                android:paddingLeft="0dp"
+                                android:paddingRight="0dp"
+                                android:text="Saber más"
+                                android:textSize="16sp"
+                                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25">
+
+                <TextView
+                    android:id="@+id/txvInformacion"
+                    style="@style/menuSubtitu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Información" />
+
+                <TextView
+                    android:id="@+id/txvInformacion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/mulishbold"
+                    android:text=">>"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/Pale_Silver"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnPoliticas2"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Políticas de Privacidad"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnAdministrar"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Administrar"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPreguntas2"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Preguntas Frecuentes"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnHorario2"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Horario de Atención"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnProtocolo2"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Protocolo Covid"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnInformacionTours"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Información de Tours"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnListaArtistas"
+                style="@style/boton_historia_eliz2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:onClick="onClick"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:text="Grandes Artistas"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdvInicio"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:onClick="onClick"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4">
+
+        <ImageButton
+            android:id="@+id/img_btn_home"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/home"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txvInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Inicio"
+            android:textAlignment="center"
+            android:textColor="@color/Pale_Silver" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintStart_toEndOf="@+id/cdvInicio"
+        app:layout_constraintTop_toTopOf="@+id/imageView4">
+
+        <ImageButton
+            android:id="@+id/img_btn_ubicacion"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#00FFFFFF"
+            android:elevation="5dp"
+            app:srcCompat="@drawable/museo"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txvCerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Cerca"
+            android:textAlignment="center"
+            android:textColor="@color/Pale_Silver" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="25dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView4">
+
+
+        <ImageButton
+            android:id="@+id/img_btn_curiosidad"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="#00FFFFFF"
+            android:elevation="5dp"
+            app:srcCompat="@drawable/curiosidad"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txvCuriosidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Curioso"
+            android:textAlignment="center"
+            android:textColor="@color/Pale_Silver" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView9"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4">
+
+
+        <ImageButton
+            android:id="@+id/img_btn_youtube"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            android:elevation="5dp"
+            app:srcCompat="@drawable/video"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/txvVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Video"
+            android:textAlignment="center"
+            android:textColor="@color/Pale_Silver" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

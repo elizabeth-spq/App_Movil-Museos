@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliticaActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Museo Nacional del Prado ha puesto un especial énfasis en su objetivo de difundir las colecciones, con programas dirigidos a involucrar a todo tipo de públicos en su proyecto cultural. Este objetivo continúa vigente, así como el de satisfacer la demanda de los visitantes y alcanzar una gestión administrativa racionalizada, que conlleva la realización de un intenso programa cultural, así como garantizar las condiciones de las salas, el mantenimiento de las instalaciones y el nivel de servicios.  El compromiso es ser una referencia de calidad en la oferta cultural española a través de una gestión transparente y eficiente. A su vez, otro de nuestros principales compromisos está relacionado con la protección de la información gestionada, y en concreto de los datos de carácter personal que tratamos, tanto de los facilitados por nuestros visitantes y usuarios, como por los colaboradores del museo.  Dicha gestión se extiende al cumplimiento de la legislación vigente, en concreto del Reglamento Europeo en materia de protección de datos (Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE) (Reglamento General de Protección de Datos), por lo que a través de esta política de protección de datos y en cumplimiento de la mencionada normativa le informamos de lo siguiente:  Responsable del tratamiento Esta Política de Privacidad establece las bases sobre las que el Museo Nacional del Prado (en adelante, “Museo”), en calidad de Responsable del tratamiento, con domicilio en Calle Ruiz de Alarcón 23, 28014 Madrid, y CIF Q2828018H, organismo que opera en España, trata los datos de carácter personal de sus visitantes, así como de sus usuarios facilitados a través de la página web www.museodelprado.es (en adelante, la Web).  Para cualquier información adicional puede realizar cualquier consulta a través de los siguientes medios:  Teléfono: +34 91 330 28 00 Correo electrónico de contacto del Delegado de Protección de Datos (DPD): dpd@museodelprado.es Le recordamos que cada vez que al usar la Web nos facilite o sea necesario que accedamos a cualquier tipo de información que por sus características nos permita identificarle, como su nombre y apellidos, e-mail, direcciones de facturación o envío, número de teléfono, tipo de dispositivo o número de tarjeta de débito o crédito, etc. (en adelante, “Datos Personales”), ya sea para navegar por la misma, comprar nuestros productos o hacer uso de sus servicios o funcionalidades, estará bajo la aplicación de esta Política de Privacidad, junto con los Términos de Uso de la Web, así como de otros documentos referenciados vigentes en cada momento, debiendo revisar dichos textos para comprobar que está conforme con ellos.  Esta Política de Privacidad y nuestros Términos de Uso podrían ser modificados. Es su responsabilidad leerlos periódicamente, ya que resultarán aplicables aquellos que se encuentren vigentes en el momento de uso de la Web.  Nuestro compromiso de privacidad Respetamos la privacidad del usuario y sus elecciones. Nos aseguramos de que la privacidad y la seguridad estén incorporadas en todas las actividades llevadas a cabo por el Museo. No enviamos comunicaciones de marketing a menos que el usuario lo solicite. En caso de solicitarlo, este se encuentra facultado para cambiar de opinión en cualquier momento. No ofrecemos ni vendemos los datos de usuarios a terceros. Nos comprometemos a mantener sus datos seguros y protegidos, lo que implica que solo colaboramos con proveedores de confianza con los cuales hemos regulado el tratamiento de datos que pueden realizar con motivo de la prestación de un servicio, en su caso. En nuestra página web se encuentran los datos sobre transparencia para su consulta. No utilizamos sus datos para otras finalidades que no sean aquellas sobre las que le hayamos informado. Respetamos sus derechos y siempre tratamos de acomodar sus solicitudes de acuerdo con nuestras propias responsabilidades legales."
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

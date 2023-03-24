@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ep1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EP1">
+        <activity
+            android:name=".DetalleActivity"
+            android:label="@string/Ver"
+            android:exported="false" />
+        <activity
+            android:name=".EditarActivity"
+            android:exported="false"
+            android:label="@string/Editar"
+            android:theme="@style/Theme.EP1.NoActionBar" />
+        <activity
+            android:name=".AgregarActivity"
+            android:exported="false"
+            android:label="@string/Agregar"
+            android:theme="@style/Theme.EP1.NoActionBar" />
+        <activity
+            android:name=".AdministrarActivity"
+            android:exported="false"
+            android:label="@string/Admin" />
+        <activity
+            android:name=".ToursActivity"
+            android:exported="false"
+            android:label="Nuestros Tours" />
+        <activity
+            android:name=".ArtistasActivity"
+            android:exported="false"
+            android:label="@string/artistas" />
+        <activity
+            android:name=".ModeloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TipoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LuvreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoriaeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.EP1.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreguntasActivity"
+            android:exported="false"
+            android:label="Preguntas Frecuentes" />
+        <activity
+            android:name=".HorarioActivity"
+            android:exported="false"
+            android:label="Horario de Atención" />
+        <activity
+            android:name=".ProtocoloActivity"
+            android:exported="false"
+            android:label="Protocolo Covid-19" />
+        <activity
+            android:name=".PoliticaActivity"
+            android:exported="false"
+            android:label="Politicas de Privacidad" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EP1.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.EP1.NoActionBar" />
+        <activity
+            android:name=".UbicacionActivity"
+            android:exported="false"
+            android:label="Ubicacion" />
+        <activity
+            android:name=".CuriosidadesActivity"
+            android:exported="false"
+            android:label="Curiosidades" />
+        <activity
+            android:name=".NoticiasActivity"
+            android:exported="false"
+            android:label="Noticias" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

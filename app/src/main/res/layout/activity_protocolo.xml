@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProtocoloActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp" >
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="1. OBJETIVOS GENERALES"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="• Implantar medidas preventivas de bioseguridad frente al COVID-19 para el Museo Larco, aplicando los lineamientos de los protocolos"
+                android:textColor="@color/Eerie_Black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="• Prevenir o minimizar el riesgo de contagio de COVID-19 en las instalaciones del museo, durante su operatividad. "
+                android:textColor="@color/Eerie_Black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="• Proteger la salud del personal, terceros y visitantes frente al riesgo de contagio del COVID-19."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="2. ALCANCE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Los Protocolos de las medidas preventivas de bioseguridad frente al COVID-19 han sido elaborados para el Museo Larco."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="3. PROCEDIMIENTOS"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="1. Antes de ponerse la mascarilla lavarse las manos con agua y jabón según la técnica de lavado de manos, luego desinfectarse las manos."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="2. Verificar que la mascarilla no se encuentre dañada."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="3. Asegurarse que el lado exterior de la mascarilla queda hacia fuera. "
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="4. Cúbrete la boca y la nariz con la mascarilla, sujeta las tiras o elástico alrededor de las orejas o en la parte posterior de la cabeza y ajusta la tira rígida sobre la nariz. "
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="5. Evitar tocar la mascarilla mientras lo usas, si lo haces lávate las manos."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="6. Quítate la mascarilla sin tocar la parte delantera y deséchala en un recipiente cerrado. Luego lávate y desinféctate las manos."
+                android:textColor="@color/Eerie_Black"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

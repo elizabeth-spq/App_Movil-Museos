@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="historia_25">25dp</dimen>
+    <dimen name="historia_20">20dp</dimen>
+    <dimen name="historia_15">15dp</dimen>
+    <dimen name="historia_10">10dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_politica"
+        android:title="@string/politicas_de_privacidad" />
+    <item
+        android:id="@+id/nav_artistas"
+        android:title="@string/artistas" />
+    <item
+        android:id="@+id/nav_tours"
+        android:title="@string/tours" />
+    <item android:title="Ayuda">
+        <menu>
+            <item
+                android:id="@+id/nav_preguntas"
+                android:title="Preguntas frecuentes" />
+            <item
+                android:id="@+id/nav_horario"
+                android:title="Horario de atención" />
+            <item
+                android:id="@+id/nav_protocolo"
+                android:title="Protocolo covid" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_cerrar_sesion"
+        android:title="Cerrar Sesión" />
+</menu>

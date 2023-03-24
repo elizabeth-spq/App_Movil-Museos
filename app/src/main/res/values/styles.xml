@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="boton_normal">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_boton_completo</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">85dp</item>
+        <item name="android:paddingRight">85dp</item>
+        <item name="android:textColor">@color/Snow_Color</item>
+    </style>
+
+    <style name="boton_pequeno">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_boton</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">-60dp</item>
+        <item name="android:textColor">@color/Snow_Color</item>
+    </style>
+
+    <style name="info_imagen">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/Sonic_Silver</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="texto_frase">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="titulos">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="bordercard">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+    <style name="historia_tittletext">
+        <item name="android:fontFamily">@font/mulishbold</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+
+    <style name="historia_bodytext">
+        <item name="android:fontFamily">@font/mulishregular</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+    <style name="historia_text_card">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="historia_greytext">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/Sonic_Silver</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="historia_subtitulo">
+        <item name="android:fontFamily">@font/mulishbold</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="boton_historia_eliz">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_historia</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:fontFamily">@font/mulishbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:width">230dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="boton_historia_eliz2">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_historia2</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="scroll_vert_eli">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">150dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/Snow_Color</item>
+    </style>
+
+    <style name="menuSubtitu">
+        <item name="android:fontFamily">@font/mulishbold</item>
+        <item name="android:shadowColor">@color/Sonic_Silver</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="boton_historia_subventanasa" parent="boton_historia_eliz2">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginStart">@dimen/historia_25</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:paddingTop">7dp</item>
+    </style>
+
+    <style name="boton_historia_subventanasb" parent="boton_historia_eliz">
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginEnd">@dimen/historia_25</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:autoSizeTextType">none</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Snow_Color</item>
+    </style>
+
+    <style name="content_text">
+        <item name="android:fontFamily">@font/mulishregular</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="titulo_negrita">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/mulishbold</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Eerie_Black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="estilo_radio_button">
+        <item name="android:drawableTop">@drawable/fondo_radio_boton</item>
+        <item name="android:button">@null</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+</resources>

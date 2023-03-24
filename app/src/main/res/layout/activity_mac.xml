@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow_Color"
+    tools:context=".MacActivity">
+
+    <Button
+        android:id="@+id/btnLuvre"
+        style="@style/boton_historia_subventanasa"
+        android:layout_marginStart="@dimen/historia_25"
+        android:layout_marginBottom="@dimen/historia_25"
+        android:text="@string/boton_luvre1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLuvre3"
+        style="@style/boton_historia_subventanasb"
+        android:layout_marginEnd="@dimen/historia_25"
+        android:layout_marginBottom="@dimen/historia_25"
+        android:text="@string/boton_luvre2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imgMac"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:contentDescription="@string/imgMac"
+        android:scaleType="centerCrop"
+        android:scrollY="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mac" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="-67dp"
+        android:background="@color/Snow_Color"
+        app:cardBackgroundColor="@color/Snow_Color"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/scroll_vert_eli"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLuvre3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25">
+
+                <TextView
+                    android:id="@+id/txvDatoGris11"
+                    style="@style/historia_greytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txvDatoGris11" />
+
+                <TextView
+                    android:id="@+id/txvDatoGris12"
+                    style="@style/historia_greytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txvDatoGris12"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <TextView
+                    android:id="@+id/txvDatoGris13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txvDatoGris13"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/txvDatoGris14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txvDatoGris14"
+                    android:textAlignment="viewEnd" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txvTituloMac"
+                style="@style/historia_tittletext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txvDatoGris15" />
+
+            <TextView
+                android:id="@+id/txvCuerpoMac"
+                style="@style/historia_bodytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txvDatoGris16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txvTituloH1" />
+
+            <TextView
+                android:id="@+id/txvDatoGris"
+                style="@style/historia_greytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingRight="@dimen/historia_25"
+                android:text="@string/txvDatoGris5"
+                android:textAlignment="viewStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/historia_25"
+                android:paddingTop="@dimen/historia_10"
+                android:paddingRight="@dimen/historia_25"
+                android:paddingBottom="@dimen/historia_10">
+
+                <TextView
+                    android:id="@+id/texSubtituloArte"
+                    style="@style/historia_subtitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/texSubtituloMac"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/txvDatoGris6"
+                    style="@style/historia_greytext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txvDatoGris6"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/historia_10"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/historia_25"
+                    android:paddingRight="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/maca" />
+
+                            <TextView
+                                android:id="@+id/txv_sub1"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub2"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub2"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/macb" />
+
+                            <TextView
+                                android:id="@+id/txv_sub3"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub4"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub4"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/historia_25"
+                    android:paddingRight="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/macc" />
+
+                            <TextView
+                                android:id="@+id/txv_sub5"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub6"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="LA VIDA COMO IMPREVISIBLE. Szyszlo en la historia del IAC y el MAC Lima"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/macd" />
+
+                            <TextView
+                                android:id="@+id/txv_sub7"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub8"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="Universos Análogos. 10 experiencias híbridas de creación contemporánea"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/historia_25"
+                    android:paddingRight="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/mace" />
+
+                            <TextView
+                                android:id="@+id/txv_sub9"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub10"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="Cómo te cura, cómo levanta, cómo florece,una instalación de sonido de Louidgi Beltrame"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/macf" />
+
+                            <TextView
+                                android:id="@+id/txv_sub11"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub12"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="Civilización Atalaya de  Huanchaco, propone una arqueología afirmada como ficción."
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/historia_25"
+                    android:paddingRight="@dimen/historia_25">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/macg" />
+
+                            <TextView
+                                android:id="@+id/txv_sub13"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub14"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="Negar el Desierto, El desierto nunca estuvo del todo vacío de vida social"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_mac8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp"
+                                android:contentDescription="@string/mac_expo1"
+                                app:srcCompat="@drawable/mach" />
+
+                            <TextView
+                                android:id="@+id/txv_sub15"
+                                style="@style/historia_greytext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="@string/txv_sub1" />
+
+                            <TextView
+                                android:id="@+id/txv_sub16"
+                                style="@style/historia_subtitulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="8dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="8dp"
+                                android:text="La Voz del Perú, desde sus particulares planteamientos subjetivos."
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

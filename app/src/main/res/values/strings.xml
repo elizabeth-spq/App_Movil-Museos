@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">WikiMuseo</string>
+    <string name="txvTitulo1Historia">\"Los Museos y su Historia\"</string>
+
+    <string name="historia_edadmedia">#historia #edadmedia</string>
+    <string name="museo_antiguo">#museo #antiguo</string>
+    <string name="primera_etapa">Primera Etapa</string>
+    <string name="_1178_a_c_siglo_ix">1178 a.c - siglo IX</string>
+    <string name="mas_detalles">SIGUIENTE</string>
+    <string name="galeria">Galeria</string>
+    <string name="antiguoimagen">antiguoimagen</string>
+    <string name="imgAntiguo1">antiguoimg</string>
+    <string name="imgMeso">meso</string>
+    <string name="txv_antiguedad_edad_media">Antiguedad - Edad Media</string>
+
+    <string name="txv_Descript">Se abre un museo de objetos bélicos en la puerta occidental de la ciudad de Assur que pertenecía a Babilonia</string>
+    <string name="Alejandría">Alejandría III a.c.</string>
+    <string name="roma">Roma Siglo I d.c.</string>
+    <string name="descrip_3">El coleccionismo se tranforma en signo de poder, algunas colecciones se mostraban en el Templo Venus Genetrix</string>
+    <string name="medieval">Siglo V - Siglo IX</string>
+    <string name="descrip_4">La iglesia toma el control y muchas piezas son destruidas, solo el Emperador Constantino mostraba su colección en fiestas y eventos</string>
+    <string name="luvreimg">luvreimg</string>
+    <string name="boton_luvre1">360º</string>
+    <string name="boton_luvre2">VISITALO</string>
+    <string name="txvDatoGris1">Paris - Francia</string>
+    <string name="txvdatoGris2">♡214K</string>
+    <string name="txvDatoGris3">Abierto desde 1793</string>
+    <string name="txvDatoGris4">Miercoles a Lunes</string>
+
+    <string name="txvCuerpoLuvre">Inaugurado a finales del siglo XVIII, el Museo del Louvre es el museo más importante de Francia y uno de los más visitados del mundo. Actualmente recibe más de ocho millones de visitantes cada año.</string>
+    <string name="texSubtituloLuvre">Colecciones</string>
+    <string name="txvDatoGris6">Ver Todo</string>
+    <string name="txvDatoGris5"><![CDATA[Leer Mas >]]></string>
+    <string name="txvDatoGris7">ANTIGÜEDADES EGIPCIAS</string>
+    <string name="imgEgipto1">egipto1</string>
+    <string name="txvFlecha1">»</string>
+    <string name="txvDatoGris8">ARTES DEL ISLAM</string>
+    <string name="txvDatoGris9">ESCULTURAS</string>
+    <string name="txvDatoGris10">PINTURAS</string>
+    <string name="imgMac">mac</string>
+    <string name="txvDatoGris11">Lima - Perú</string>
+    <string name="txvDatoGris12">♡204K</string>
+    <string name="txvDatoGris13">Abierto desde 2013</string>
+    <string name="txvDatoGris14">Martes a Domingo</string>
+    <string name="txvDatoGris15">\"Museo de Arte Contemporáneo de Lima\"</string>
+    <string name="txvDatoGris16">El MAC Lima apunta a ser una institución articulada con su entorno urbano y con las sensibilidades y debates de su tiempo, aliada con la comunidad artística y abierta a la diversidad de públicos.</string>
+    <string name="texSubtituloMac">Exposiciones</string>
+    <string name="txv_sub2">DEL CUARTO ROJO. Transformance coreográfica en homenaje a Rafael Hastings</string>
+    <string name="mac_expo1">mac_expo1</string>
+    <string name="txv_sub1">Exposición</string>
+    <string name="txv_sub4">LA RESISTENCIA DEL PINCEL. La pintura, lo popular y lo nacional</string>
+    <string name="museo_arte">Museo_arte</string>
+
+    <string name="txvCuerpoArte">Establecimientos que, además de exhibir y promocionar obras de arte, se dedica a su venta, siendo entonces por lo general un espacio más reducido (equivalente a cualquier otro local comercial) y limitando el periodo de exhibición a un tiempo determinado, pasado el cual se desmonta la exposición y se monta una nueva. El oficio y técnica de su gestión se denomina galerismo.</string>
+    <string name="texSubtituloArte">Pinturas Valiosas</string>
+    <string name="imgValioso1">valioso1</string>
+    <string name="txvAutor1">Leonardo da Vinci - Salvator Mundi</string>
+    <string name="txvFecha1">1490 - 1519</string>
+    <string name="txvPrecio1">Precio: $507.4 millones</string>
+    <string name="imgvalioso2">valioso2</string>
+    <string name="txvAutor2">Willem de Kooning - Interchange</string>
+    <string name="txvFecha2">1955</string>
+    <string name="txvPrecio2">Precio: $350.4 millones</string>
+    <string name="imgvalioso3">valioso3</string>
+    <string name="txvAutor3">Paul Cézanne - Los Jugadores de cartas</string>
+    <string name="txvFecha3">1892 - 1893</string>
+    <string name="txvPrecio3">Precio: $307.8 millones</string>
+    <string name="imgvalioso4">valioso4</string>
+    <string name="txvAutor4">Andy Warhol - Orange Marilyn</string>
+    <string name="txvFecha4">1964</string>
+    <string name="txvPrecio4">Precio: $248 millones</string>
+    <string name="txvvalioso5">valioso5</string>
+    <string name="txvAutor5">Paul Gauguin - Nafea faa Ipoipo?</string>
+    <string name="txvFecha5">1892</string>
+    <string name="txvPrecio5">Precio: $247.2 millones</string>
+    <string name="imgvalioso6">valioso6</string>
+    <string name="txvAutor6">Jackson Pollock - Number 17A</string>
+    <string name="txvFecha6">1948</string>
+    <string name="txvPrecio6">Precio: $233.3 millones</string>
+    <string name="el_museo_tuvo_su_origen_en_la_recogida_y_conservaci_n_de_objetos_valiosos_a_los_que_hoy_daremos_el_nombre_de_bienes_culturales_y_que_en_principio_se_reunieron_para_ostentaci_n_de_poder">El museo tuvo su origen en la recogida y conservación de objetos valiosos, a los que hoy daremos el nombre de bienes culturales, y que, en principio, se reunieron para ostentación de poder.</string>
+    <string name="txvmeso">Siglo IX a.c. Assur</string>
+    <string name="descriptdos">Tolomeo Filadelfo utiliza el término \"Mouseum\" para designar su centro cultural en Alejandría, un centro de estudios pluridisciplinar.</string>
+    <string name="textolouvre">\"Museo de Louvre\"</string>
+    <string name="museo_de_arte">\"Museo de Arte\"</string>
+    <string name="comprar">COMPRAR</string>
+    <string name="env_a_tu_oferta">ENVÍA TU OFERTA</string>
+
+    <string name="texto_curiosidades_collares_perros">
+        Este museo abarca 5 siglos de historia a través de más de 130 collares.
+        Se encuentra en el Castillo de Leeds, más concretamente en un antiguo establo junto al foso. El propio castillo es un gran atrayente turístico, ya que se trata de un castillo del siglo XI.
+        \n\n
+    </string>
+    <string name="texto_curiosidades_collares_perros2">
+        El más antiguo es de finales del s. XV y es un collar de mastín de rebaño hecho de hierro que fue usado para protegerse de lobos y osos que vagaban por Europa en ese momento. También podemos encontrar otros collares hechos con neumáticos, plástico, etc.
+        \n\n
+        En 1977 Gertrude Hunt donó a la Leeds Castle Foundation una colección de sesenta collares, que iban desde el siglo XVI al XVII. Esto lo hizo en memoria a su marido John Hunt, el famoso historiador medieval; ambos habían dedicado gran parte de su vida a coleccionar diversos objetos, pero Gertrude tenía una predilección especial por los collares para perros. Desde esta donación la colección ha aumentado considerablemente, mediante otras donaciones o compras por parte del museo.
+        \n\n
+    </string>
+    <string name="noticia_texto">
+        La gran mayoría lo hace, con absoluta fidelidad al término, por amor al arte. El mismo amor al arte que tenía el recordado museólogo Lucho Repetto, predecesor del actual programa. “Somos un país multicultural y esto hay que ponerlo en valor”, resalta la conductora. Inés, nacida en Barcelona, llegó al Perú por una beca de gestión cultural en el Centro Cultural de España.
+        \n\n
+        Así comenzó a conocer nuestros circuitos culturales y a entender cómo funcionaban. Años después entró a trabajar en el Ministerio de Educación y estuvo involucrada en el proyecto Aprendo en Casa, pero detrás de cámaras.
+        \n\n
+        Así supo del casting para conducir Museo sin límites. Este mes celebra su primer año frente al programa, que estrena temporada con una visita al fascinante Museo del Prado, en Madrid.
+        \n\n
+    </string>
+    <string name="noticia_texto1">
+        Ministra de Cultura, Patricia Balbuena, lamentó incendio del Museo Nacional de Río de Janeiro, ocurrido el último domingo.
+        \n\n
+        Explicó que en el Perú hay 56 museos registrados en el Sistema Nacional de Museos, 13 de los cuales están en Lima, 14 en el norte del país, 14 en el centro y otros 15 en el sur.
+        \n\n
+        Precisó que solo ocho museos cuentan con el certificado de seguridad emitido por las oficinas de Defensa Civil de las municipalidades respectivas.
+        \n\n
+        "Hemos pasado a tener 14 museos con planes de seguridad. Estamos pendientes de aprobar seis planes de seguridad más del mismo número de museos y hemos hecho un mapa de museos en situación vulnerable", señaló.
+        \n\n
+        Balbuena indicó que el Ministerio de Economía y Finanzas destinó 6 millones de soles al portafolio de Cultura para la formulación de expedientes que permitan la inversión en la optimización, ampliación, reposición y rehabilitación de museos.
+        \n\n
+    </string>
+    <string name="noticia_texto2">
+        Desde geolocalizadores que orientan y siguen a los visitantes, gafas para recibir información adicional de las obras expuestas, páginas web, redes sociales, multimedia y aplicaciones especiales, las cunas de exposición del arte en el mundo son los espacios físicos que mejor se visten de la tecnología actual para seguir vigentes.
+        \n\n
+        Los hay en todas partes del mundo, conservan y exhiben las obras de arte más importantes de la historia, aunque no sólo son edificios dedicados a estos fines, sino que también contemplan otras disciplinas como la arqueología, historia, monografía, ciencia, agricultura, etc. Toda información que pueda resguardarse para compartir durante el paso del tiempo es abrazada por distintos museos. El objetivo: proteger y difundir el conocimiento.
+        \n\n
+        Hasta no hacen muchos años atrás conocer el “Retrato del mercader Gisze” de Hans Holbein el Joven, o “La botella de Anís del Mono” de Juan Gris, “La Gioconda” de Leonardo Da Vinci, o tantas otras reconocidas obras de arte requería de un paquete turístico destinado simplemente a recorrer museos y dedicarle unas cuantas únicas y preciadas horas a cada espacio.
+        \n\n
+        Quien no pudiera hacer esos instructivos viajes debería conformarse con ver los cuadros en las enciclopedias de arte para obtener datos con precisión. Sin embargo, las cosas cambiaron, y el extenso brazo de la tecnología permite apreciar aquellos cuadros casi como si estuviéramos en el mismísimo Museo Reina Sofía de España, y luego con un clic trasladarnos al MoMA (Museo de Arte Moderno) para recorrer la galería de Paul Cézanne desde 1839 a 1906.
+        \n\n
+    </string>
+    <string name="noticia_texto4">
+        En el marco de las celebraciones por Semana Santa, el Ministerio de Cultura pone a disposición de turistas y público en general, la lista de museos bajo su administración que atenderán en horario regular durante el feriado largo, desde el jueves 14 hasta el domingo 17 de abril, a fin de ofrecer una alternativa cultural a la ciudadanía.
+        \n\n
+        Desde la Dirección General de Museos del Ministerio de Cultura, se sugiere a los visitantes revisar la lista a nivel nacional de los Museos en Línea a través de http://museos.cultura.pe/ y conocer las exposiciones permanentes y temporales que ofrece cada uno de ellos durante el fin de semana largo.
+        \n\n
+        Asimismo, la ciudadanía, extranjeros residentes y turistas de todo el mundo podrán realizar recorridos virtuales de las exposiciones que ofrecen algunos museos, así como actividades culturales de manera presencial.
+        \n\n
+        Cabe señalar que todos los museos cuentan con los protocolos sanitarios vigentes. Las y los visitantes deberán presentar obligatoriamente su carné de vacunación (mayores de 18 años, con las tres dosis) y usar correctamente una mascarilla KN95 o doble mascarilla, durante toda su permanencia en los establecimientos culturales.
+        \n\n
+    </string>
+    <string name="noticia_texto5">
+        El museo Tumbas Reales de Sipán, ubicado en la ciudad de Lambayeque y uno de los más visitados de nuestro país, recibió durante el feriado largo por Semana Santa más de 3,300 visitantes, atendiendo en el horario habitual desde las 09:00 a 17:00 horas.
+        \n\n
+        El flujo de visitas nacionales alcanzó un 93 % procedentes de las ciudades de Tumbes, Piura, Lima, Jaén, Moquegua. Cusco y del Nororiente peruano; mientras que los extranjeros alcanzaron el 7 % de las visitas procedentes de Alemania, España, Cuba, Ecuador, Chile, Francia, Uruguay, Bolivia, Argentina, EE. UU. Bélgica, entre otros países.
+        \n\n
+        Asimismo, el arribo de visitantes en este primer trimestre en los diferentes museos ha crecido significativamente, logrando el museo Tumbas Reales de Sipán posesionarse en el primer lugar a escala nacional, ubicándose como  uno de los más visitados del país con más de 32,311 visitas durante enero, febrero y marzo; seguido del museo arqueológico y etnográfico del Conjunto Monumental de Belén con 19,041 visitas, y el tercer lugar lo ocupa el museo Arqueológico Nacional Brüning con más de 11,333 visitas , seguido del museo Histórico Regional del Cusco con 11,170 visitas.
+        \n\n
+    </string>
+    <string name="noticia_texto6">
+        Luego de más de dos años, se ha culminado la restauración de los cuatros frentes de la fachada del Museo de Arte de Lima – MALI, gracias a fondos de la Unión Europea en Perú ejecutados por World Monuments Fund Perú.
+        \n\n
+        Esta obra por un valor de 525,000 euros se enmarca en las actividades del proyecto de cooperación cultural de la Unión Europea para el Bicentenario del Perú.
+        \n\n
+        Durante la ceremonia de inauguración en el atrio del MALI, el embajador de la Unión Europea, Gaspar Frontini, manifestó que el Museo de Arte de Lima es un referente cultural muy importante para la captal del Perú, por lo cual es necesario fortalecer su uso social.
+        \n\n
+        La obra ha incluido la restauración de segmentos de las paredes, molduras y ornamentos, el pintado de los muros exteriores, el revestimiento de yeso, la restauración de la madera en la balaustrada, frontón y trabajos en la cornisa superior e intermedia y la instalación de tuberías para el sistema de iluminación monumental.
+        \n\n
+        También el mejoramiento de la canalización del drenaje pluvial de la cobertura tensionada de la azotea e incluso la implementación de una zanja de ventilación alrededor del edificio para protegerlo de la humedad, y otras acciones técnicas para preservar la fachada de este edificio monumental.
+        \n\n
+    </string>
+    <string name="titulo_noticias1">El Museo de los collares de perros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exhibicion">Exhibicion</string>
+    <string name="contextual">Contextual</string>
+    <string name="difusor">Difusor</string>
+    <string name="actividad">Actividad</string>
+
+    <string name="modelo_exhibicion_objetos">
+        Se espera que los objetos/artefactos, preferentemente originales y mostrados en las mejores condiciones de visibilidad (teniendo en cuenta la accesibilidad), sean los responsables principales de la experiencia de los visitantes.
+        \n\n
+        Cuando se hace hincapié en este enfoque, la selección y disposición de los objetos en la exposición es lo principal. Se espera que los objetos/artefactos, preferentemente originales y mostrados en las mejores condiciones de visibilidad (teniendo en cuenta la accesibilidad), sean los responsables principales de la experiencia de los visitantes.
+        \n\n
+        Como resultado, se pone gran atención en buscar y seleccionar los objetos que serán relevantes en dicha experiencia. Los soportes que pretenden mejorar otros componentes de la exposición se tratan generalmente como secundarios y se restringen cuidadosamente para no interferir con la selección y la exhibición. El equipo de desarrollo de la exposición está a menudo dirigido por el curador o investigador que controla la selección de objetos y, por lo tanto, es el shériff de la exposición.
+        \n\n
+        Dependiendo del contexto en el que trabajan, los diseñadores de expositores tienen diferentes expectativas sobre cómo la exhibición de objetos impactará en los visitantes. Por ejemplo, en los museos de arte existe la tendencia de creer que «el arte habla por sí mismo», es decir, que el objeto individual, en virtud de su poder como referente artístico, inoculará en el visitante atento un conocimiento único por sí mismo, transformándose en una experiencia individual compleja, intelectual y emocional.
+        \n\n
+        A cada objeto se le concede el espacio que se considera apropiado y necesario para que «hable». En cambio, en un museo de historia natural, el efecto de un objeto individual sobre el visitante surge en gran parte de su papel como referencia convincente de un todo mucho más grande, un conocimiento importante de alguna parte del mundo. Aunque un solo objeto puede realizar ese trabajo, normalmente los grupos coordinados de objetos están expuestos para colaborar colectivamente.
+        \n\n
+    </string>
+
+    <string name="modelo_exhibicion_interactivo">
+        También es posible ver la exposición principalmente en términos de plataforma activa para los visitantes. En lugar de poner los objetos como centro de atención (» objeto a visualizar») o como mensajes (al igual que en la» idea de la exposición»), la actividad que se propone condiciona el comportamiento del visitante y su interacción como base de la exposición.
+        \n\n
+        El punto de partida será lo que el visitante haga en la exposición. Ésta proporciona un medio que anima al visitante a manipular y utilizar todo lo accesible como él o ella lo crean conveniente. ¿Qué opciones se ofrecerán? ¿Qué mejorará esas posibilidades? ¿Cómo se coordinarán o integrarán esas actividades? ¿Cómo van a apoyar la misión y los resultados que el museo está buscando? La gama de actividades dirigidas a los visitantes incluyen tocar, manipular, crear, intercambiar, moverse y participar en interacciones sociales.
+        \n\n
+        Por lo general, las exposiciones más orientadas a la actividad se encuentran en los museos de los niños y centros de la ciencia. Suele tratarse de exposiciones interactivas, ya que éstas están específicamente diseñadas para que el visitante responda activamente.
+        \n\n
+        McLean (1993), definió las exposiciones interactivas como «aquellas en las que los visitantes pueden realizar actividades, recopilar evidencias, seleccionar opciones, formar conclusiones, evaluar habilidades, ofrecer propuestas y, de hecho, modificar una situación basada en esas propuestas»
+        \n\n
+    </string>
+
+    <string name="modelo_exhibicion_contextual">
+        Bajo este enfoque, una exposición puede plantearse como un entorno que envuelva al visitante.
+        \n\n
+        A través de la experiencia pasada y de la experimentación presente el visitante consigue fusionarse con la sensación del ambiente, para explorar las posibilidades que éste le evoca y propone.
+        \n\n
+        Aunque todas las exposiciones de museos son ambientes construidos dentro de edificios, el énfasis en el ambiente-exposición puede ser la creación de un espacio inmersivo. Muchas exposiciones ambientales reproducen las características sobresalientes de algún otro lugar al que se transporta el visitante (como viajar en la máquina del tiempo).
+        \n\n
+        Algunos museos de arte llevan ya un tiempo trabajando sobre el valor de las exposiciones ambientales en sus salas de época. El Museo de Arte de Filadelfia, por ejemplo, ha dedicado una cantidad considerable de área de exposición a las estructuras auténticas a gran escala que los visitantes pueden caminar en y alrededor, incluyendo un templo chino y una casa de té japonesa.
+        \n\n
+    </string>
+
+    <string name="modelo_exhibicion_difusor">
+        Todas las exposiciones están basadas en un tema central o un argumento único que las define. Cuando una exposición funciona como un comunicador de ideas potente (incluyendo ideas, teorías, información, descubrimientos, etcétera), busca transmitir mensajes adicionales que soporten ese tema y proporcionen nueva información o perspectivas al visitante.
+        \n\n
+        En una idea-exposición, el corazón de la exhibición es el conjunto de mensajes, narraciones o hechos que los diseñadores de exposiciones buscan ofrecer al público. Las exposiciones de ideas necesariamente hacen un amplio uso del lenguaje, ya sea en textos, audio o video.
+        \n\n
+        Los objetos/artefactos están típicamente rodeados de «contextos» proporcionados por palabras e imágenes. Los objetos/artefactos se eligen por su capacidad para apoyar y ayudar a transmitir el mensaje. No necesitan ser raros o únicos; pueden ser elementos familiares, réplicas, facsímiles, dioramas, reproducciones o copias, ya que el objetivo principal es comunicar ideas, no mostrar realmente objetos importantes.
+        \n\n
+        Las exposiciones que hacen hincapié en las ideas tienden a buscar objetivos educativos y son comunes en las de historia o en los museos de historia natural, que a menudo buscan instruir e inspirar a los visitantes con respecto a la historia y la ciencia.
+        \n\n
+    </string>
+
+
+    <string name="artistas">Grandes Artistas</string>
+    <string name="politicas_de_privacidad">Politicas de privacidad</string>
+    <string name="tvNombreArtista">TextView</string>
+    <string name="categoria">TextView</string>
+    <string name="nacionalidad">TextView</string>
+    <string name="ultimaobra">TextView</string>
+    <string name="vida">TextView</string>
+    <string name="desca">Nacionalidad</string>
+    <string name="descb">Última Obra</string>
+    <string name="descc">Vida</string>
+    <string name="tours">Tours</string>
+
+    <string name="Admin">Lista de artistas</string>
+    <string name="Agregar">Agregar Artista</string>
+    <string name="Editar">Editar Artista</string>
+    <string name="Ver">Detalle Artista</string>
+    <string name="imgsuperior">imgsuperior</string>
+</resources>

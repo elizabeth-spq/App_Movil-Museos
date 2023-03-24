@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow_Color"
+    android:padding="0dp"
+    tools:context=".AdministrarActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView10"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Snow_Color"
+            android:contentDescription="@string/imgsuperior"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/superior" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/historia_10"
+        android:paddingRight="@dimen/historia_10"
+        app:layout_constraintTop_toBottomOf="@+id/cardView10">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/historia_10"
+            android:layout_marginTop="@dimen/historia_15"
+            android:layout_marginRight="@dimen/historia_10"
+            android:layout_marginBottom="@dimen/historia_15"
+            android:layout_weight="1"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:hint="🔎 Buscar"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnAgregar"
+            style="@style/boton_historia_eliz2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="@dimen/historia_10"
+            android:layout_marginTop="@dimen/historia_15"
+            android:layout_marginRight="@dimen/historia_10"
+            android:layout_marginBottom="@dimen/historia_15"
+            android:layout_weight="2"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="Agregar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
